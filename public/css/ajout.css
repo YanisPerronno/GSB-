@@ -1,0 +1,56 @@
+header.page-header {
+	color: white;
+    background-color: #128ba9;
+	height: auto;
+    min-width: auto;
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+	display: flex;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	border-width:10px;
+	border-style:double inset;
+	border-color:#128ba9;
+	
+	font-size: 25px;
+}
+.img{
+	width: 1100px;
+	height: 110px;
+	display: flex;
+}
+
+
+body{
+  font-family: Lobster;
+  font-size: 20px;
+}
+
+.logo
+{
+  display: flex;
+  justify-content: space-between
+}
+
+.oeoe {
+	text-align: center;
+
+}
+
+#footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #128ba9;;
+	color: white;
+	text-align: center;
+  }

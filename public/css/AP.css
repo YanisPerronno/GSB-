@@ -1,0 +1,73 @@
+body{
+  font-family: Lobster;
+  font-size: 20px;
+}
+
+
+.ajout
+{
+	background-color:#3fb165;
+	display:inline-block;
+	border:#666 1px solid;
+	margin:2px;
+	font-size:24px;
+	cursor:pointer;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	transition: transform .1s;
+}
+
+.bouton{
+	display: flex;
+	margin: auto;
+	width: 0 auto;
+	height: auto;
+	position:fixed;
+	right: 0;
+	color: #3fb165;
+}
+
+.logo
+{
+  display: flex;
+  justify-content: space-between
+}
+
+.img{
+	width: 1100px;
+	height: 110px;
+	display: flex;
+}
+
+header.page-header {
+	color: white;
+    background-color: #128ba9;
+	height: auto;
+    min-width: auto;
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+	display: flex;
+}
+
+h1{
+  text-align: center;
+}
+
+.ajout:hover{
+	-ms-transform: scale(1.35); /* IE 9 */
+	-webkit-transform: scale(1.3); /* Safari 3-8 */
+	transform: scale(1.3);
+}
+
+#footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #128ba9;;
+	color: white;
+	text-align: center;
+  }

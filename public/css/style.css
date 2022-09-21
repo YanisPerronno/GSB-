@@ -1,0 +1,16 @@
+body
+{
+font-weight: bold;
+background-image : url("../images/gsb.png");
+}
+
+
+#footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #128ba9;;
+	color: white;
+	text-align: center;
+  }
